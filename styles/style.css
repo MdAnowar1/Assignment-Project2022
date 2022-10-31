@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------------
+Start Main Part Design 
+---------------------------- */
+.main-part{
+    width: 1200px;
+}
+/* ----------------------------
+Start Header Design 
+---------------------------- */
+.top-header{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   color: #3A3A3A;
+   font-size: 24px;
+   margin-top: 87px;
+   padding-left: 120px;
+}
+.ancor-header a{
+    text-decoration: none;
+    margin: 20px;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+/* ----------------------------
+Start First Secion 
+---------------------------- */
+.header-section{
+    padding-left: 120px;
+    margin-top: 230px;
+}
+.start-journey{
+    display: flex;
+}
+.left-journey h1{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.button{
+    margin-top: 20px;
+}
+.button a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #E02C6D;
+    border-radius: 15px;
+    color: #ffff;
+}
+/* ----------------------------
+Start logo Secion 
+---------------------------- */
+.logo-section{
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 100px;
+}
+.different-logo{
+    display: flex;
+}
+.per-logo{
+    margin: 20px;
+}
+/* ----------------------------
+Start Card Secion 
+---------------------------- */
+.card-section{
+    padding-left: 150px;
+    padding-top: 160px;
+}
+.total-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.h2-tag h2{
+    font-size: 35px;
+    color: #3A3A3A;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.per-card{
+    border-radius: 7px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+}
+.text-size{
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-top: 17px;
+}
+.text-size h3{
+    font-size: 28px;
+    padding-bottom: 6px;
+}
+.text-size h5{
+    font-size: 24px;
+}
+.text-size p{
+    padding-bottom: 10px;
+}
+.flex-star{
+    display: flex;
+    align-items: center;
+}
+.flex-star span{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.fa-star.field{
+    color: orange;
+}
+.fa-star.empty{
+    color: grey;
+}
+.button-two{
+    margin-top: 20px;
+    text-align: end;
+    
+}
+.button-two a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+/* ----------------------------
+Last Secion 
+---------------------------- */
+.last-section{
+    padding-left: 150px;
+    padding-right: 80px;
+    margin-top: 108px;
+    margin-bottom: 110px;
+}
+.last-image{
+    display: flex;
+}
+.single-image{
+    padding-right: 130px;
+}
+.last-heading h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #3A3A3A;
+}
+.button-two2{
+margin-top: 15px;
+}
+.button-two2 a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #E02C6D;
+}
+/* ----------------------------
+Footer Secion 
+---------------------------- */
+.footer-tag{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.h3-footer{
+    padding-top: 30px;
+}
+.h3-footer h3{
+    color: #ffff;
+    font-size: 24px;
+}
+.h3-footer small{
+    color: #ffff;
+    font-size: 14px;
+}
+.footer-icons{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+}
+.footer-icons i{
+    margin: 15px;
+}
+/* ----------------------------
+Responsive System 
+---------------------------- */
+@media only screen and (max-width:1200px)  {
+    .top-header{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: 100%;
+    }
+    .header-section{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .logo-section{
+        grid-template-columns: 1fr;
+    }
+    .card-section{
+        grid-template-columns: 1fr;
+    }
+    .start-card{
+        grid-template-columns: 1fr;
+    }
+    .total-card{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .per-card{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+    .last-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .last-heading{
+        display: block;
+    }
+    .footer-tag{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}
